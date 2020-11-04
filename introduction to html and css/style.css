@@ -1,0 +1,27 @@
+.heading1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.heading2 {
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.heading3 {
+    color: purple;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div_1 {
+    background-color: lightblue;
+}
+
+.inner_div {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+}
