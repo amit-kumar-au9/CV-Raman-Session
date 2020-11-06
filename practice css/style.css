@@ -1,0 +1,13 @@
+img {
+    /* margin: 10px; */
+    width: 100%;
+}
+
+.image_block {
+    padding: 10px;
+}
+
+.text_block {
+    padding: 50px;
+    border: 1px solid red;
+}
