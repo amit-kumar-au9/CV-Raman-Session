@@ -1,0 +1,68 @@
+.outer-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 30px;
+  height: 280px;
+}
+
+.image-container {
+  display: inline-block;
+  background-image: url("./images/drawers.jpg");
+  min-width: 30%;
+  height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-container {
+  display: inline-block;
+  padding: 20px;
+  width: 60%;
+  background-color: white;
+  height: 240px;
+}
+
+.user-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.heading-user {
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(217, 19%, 35%);
+}
+
+.user-info {
+  display: inline-block;
+  width: 60%;
+}
+
+.share-icon {
+  display: inline;
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  padding: 5px;
+  float: right;
+}
+
+.user-info div {
+  display: inline-block;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+/* - Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%)
+- Light Grayish Blue: hsl(210, 46%, 95%) */
