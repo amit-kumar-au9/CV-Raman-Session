@@ -1,0 +1,21 @@
+.outer-container {
+	/*parent*/
+	border: 1px solid black;
+	font-size: 20px;
+	margin: 100px 0px 0 400px;
+	background-color: aqua;
+}
+
+.inner-container {
+	/*children*/
+	width: 50%;
+	background-color: brown;
+	margin: 0 auto 0 auto;
+}
+.inner-container span {
+	background-color: coral;
+}
+
+body {
+	background-color: black;
+}

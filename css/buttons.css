@@ -1,0 +1,21 @@
+.btn {
+	font-size: 20px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+}
+.primary-btn {
+	background-color: blue;
+}
+.success-btn {
+	background-color: green;
+}
+.info-btn {
+	background-color: aqua;
+}
+.warning-btn {
+	background-color: yellow;
+}
+.secondary-btn {
+	background-color: gray;
+}
