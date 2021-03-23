@@ -1,0 +1,15 @@
+.image_div {
+	background-image: url('https://image.tmdb.org/t/p/w1920_and_h800_multi_faces//fev8UFNFFYsD5q7AcYS8LyTzqwl.jpg');
+	height: 80vh;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.overlay {
+	background-color: (0, 0, 0, 0);
+}
+.overlay:hover {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.5);
+}

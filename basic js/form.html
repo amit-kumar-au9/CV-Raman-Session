@@ -6,15 +6,28 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<form id="ab">
-			<button type="submit">submit button</button>
-		</form>
+		<input type="number" id="number_input" placeholder="Enter any number" />
+		<button id="push">Push</button>
+		<button id="pop">Pop</button>
+		<p id="stack_output"></p>
 	</body>
 	<script>
+		var stack = [12, 13, 14];
+		var input_tag = document.getElementById('number_input');
+		var stack_print = document.getElementById('stack_output');
 		document
-			.getElementById('ab')
-			.addEventListener('submit', function (event) {
-				event.preventDefault();
+			.getElementById('push')
+			.addEventListener('click', function (event) {
+				var new_val = input_tag.value;
+				input_tag.value = '';
+				stack.push(new_val);
+				console.log(stack);
+			});
+		document
+			.getElementById('pop')
+			.addEventListener('click', function (event) {
+				stack.pop();
+				console.log(stack);
 			});
 	</script>
 </html>
