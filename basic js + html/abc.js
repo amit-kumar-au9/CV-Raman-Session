@@ -26,3 +26,7 @@ const ab = [
 for (i in ab) {
 	console.log(ab[i].name);
 }
+
+const ab = () => {
+	console.log(this);
+};

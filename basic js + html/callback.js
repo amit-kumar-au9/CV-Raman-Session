@@ -7,6 +7,7 @@ const add = (a, b, cb) => {
 		var total = a + b; //async
 		cb(total);
 	}, 3000);
+	skip;
 	return 'going back';
 };
 var x = 10;
