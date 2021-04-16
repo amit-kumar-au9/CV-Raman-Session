@@ -1,0 +1,15 @@
+header {
+  color: #af3838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header h1 {
+  color: #77212f;
+}
+
+header h1:hover {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
